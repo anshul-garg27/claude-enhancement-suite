@@ -1,0 +1,37 @@
+# Ignore heavy directories that waste context tokens
+node_modules/
+dist/
+build/
+.git/
+coverage/
+.next/
+__pycache__/
+*.pyc
+vendor/
+target/
+
+# Ignore generated/binary files
+*.min.js
+*.min.css
+*.map
+*.lock
+package-lock.json
+pnpm-lock.yaml
+bun.lockb
+yarn.lock
+go.sum
+
+# Ignore media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.eot
+*.mp4
+*.mp3
+*.pdf
